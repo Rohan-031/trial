@@ -1,0 +1,24 @@
+# Node (frontend)
+node_modules/
+frontend/node_modules/
+frontend/data/node_modules/
+frontend/data/dist/
+
+# Java / Maven
+backend/target/
+*.class
+
+# dotenv files (secrets)
+.env
+frontend/.env
+frontend/data/.env
+backend/.env
+
+# Logs and temp
+*.log
+*.tmp
+
+# IDE
+.idea/
+*.iml
+.vscode/
